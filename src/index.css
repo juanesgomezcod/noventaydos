@@ -17,7 +17,7 @@ code {
   width: 100%;
   min-height: 100vh;
   margin: 0 auto;
-  box-shadow: 0 5px 6px #08a05ca4;
+  box-shadow: 0 5px 6px #2932bda4;
   padding: 0 15px;
   box-sizing: border-box;
 }
@@ -35,7 +35,7 @@ header{
   position: fixed;
   box-sizing: border-box;
   background-color: white;
-  box-shadow: 0 5px 10px #08a05c50;
+  box-shadow: 0 5px 10px #2932bd50;
 }
 
 a{
@@ -45,7 +45,7 @@ a{
 }
 
 a:hover{
-  color: #08a05c;
+  color: #2932bd;
 }
 
 li{
@@ -97,29 +97,31 @@ header .cart span{
 .title{
   font-size: 2rem;
   padding: 10rem 0 0 0;
-  color:#08a05c;
+  color:#2932bd;
 }
 
 .products{
-  padding: 5rem 2 rem;
+  padding: 5rem 1rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-  gap: 3rem 1 rem;
+  gap: 3rem 2rem;
   box-sizing: border-box;
 }
 
 .product{
   display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
   border: 6px solid transparent;
+  cursor: pointer;
   border-radius: 5px;
 }
 
 .product:hover{
-  border: 6px solid #08a05c55;
+  border: 6px solid #2932bd55;
 }
 
 .product_img img{
@@ -153,15 +155,15 @@ header .cart span{
   gap: 1rem 2rem;
 }
 
-.buttom .btn{
+.button .btn{
   border: none;
   outline: 0;
   cursor: pointer;
   border-radius: 5px;
 }
 
-.buttom button{
-  background-color: #3033d3;
+.button button{
+  background-color: #bcba29;
   max-width: 250px;
   width: 100%;
   margin: 0 auto;
@@ -170,8 +172,8 @@ header .cart span{
   font-weight: 600;
 }
 
-.buttom div{
-  background-color: #08a05c;
+.button div{
+  background-color: #2932bd;
   display: grid;
   align-items: center;
   text-align: center;
@@ -179,12 +181,12 @@ header .cart span{
   border-radius: 5px;
 }
 
-.buttom div a{
+.button div a{
   color: white;
   font-weight: 700;
 }
 
-.buttom div a:hover{
+.button div a:hover{
   color: white;
 }
 
