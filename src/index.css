@@ -170,6 +170,24 @@ header .cart span{
   font-weight: 600;
 }
 
+.buttom div{
+  background-color: #08a05c;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  margin-left: -2rem;
+  border-radius: 5px;
+}
+
+.buttom div a{
+  color: white;
+  font-weight: 700;
+}
+
+.buttom div a:hover{
+  color: white;
+}
+
 /*------------Media--------*/
 @media only screen and (max-width:600px){
   header ul{
