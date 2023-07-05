@@ -93,6 +93,22 @@ header .cart span{
   background-color: crimson;
 }
 
+/*---------Inicio---------*/
+.inicio{
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 9 rem;
+}
+
+.inicio h1{
+  font-size: 2.5rem;
+  color: #2932bd;
+}
+
+.inicio img{
+  width: 100%;
+}
+
 /*----------Productos---------*/
 .title{
   font-size: 2rem;
@@ -153,6 +169,8 @@ header .cart span{
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 1rem 2rem;
+  padding: 0 1rem;
+  margin: 1rem;
 }
 
 .button .btn{

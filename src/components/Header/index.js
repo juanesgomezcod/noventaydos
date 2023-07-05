@@ -1,5 +1,6 @@
 import React from "react"
 import Logo from "../../images/Logo.jpg";
+import { Link } from "react-router-dom"
 
 export const Header = () => {
     return (
@@ -7,17 +8,17 @@ export const Header = () => {
             <div className="menu">
                 <box-icon name="menu"></box-icon>
             </div>
-            <a href="#">
+            <Link to="/">
                 <div className="logo">
                     <img src={Logo} alt="logo" width="150"/>
                 </div>
-            </a>
+            </Link>
             <ul>
                 <li>
-                    <a href="#">HOME</a>
+                    <Link to="/">HOME</Link>
                 </li>
                 <li>
-                    <a href="#">CATALOGO</a>
+                    <Link to="/ProductsList">CATALOGO</Link>
                 </li>
                 <li>
                     <a href="#">SERVICIOS</a>
